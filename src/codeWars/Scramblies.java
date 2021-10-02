@@ -1,12 +1,18 @@
 package codeWars;
 
 public class Scramblies {
+	
+	/* Complete the function scramble(str1, str2) that returns true if a portion of str1 characters can 
+	 * be rearranged to match str2, otherwise returns false.
+	 */
+	
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String nombre="eratndmeiopamnei";
-		String nombre2="demian";
+		String nombre="eraendmetiopetmnei";
+		String nombre2="tenet";
 		
 		System.out.println(Scramblies.Scramblies(nombre, nombre2));
 
@@ -38,6 +44,7 @@ public class Scramblies {
 						
 						
 					}
+					
 					break;
 					
 				     
