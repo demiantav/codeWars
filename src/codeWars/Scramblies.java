@@ -24,7 +24,6 @@ public class Scramblies {
 		char arr2[]=str2.toCharArray();
 		
 		int pos=0;
-		char aux;
 		int count=0;
 		
 		for(char s2: arr2) {
@@ -37,7 +36,7 @@ public class Scramblies {
 					
 					count++;
 					
-					for(int i= pos;i<arr1.length-1;i++) {
+					for(int i= pos;i<arr1.length-1;i++) { /* Mediante este for elimino la coincidencia y acomodo los lugares */
 						
 						
 						arr1[i]=arr1[i+1];
